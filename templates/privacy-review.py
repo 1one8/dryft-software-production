@@ -1,6 +1,5 @@
 """Read-only, bounded staged/message evidence. No approvals or commit execution.
 
-Pattern seed: Dryft task 19. Keep the separate stack copy byte-identical.
 """
 import argparse
 import hashlib
