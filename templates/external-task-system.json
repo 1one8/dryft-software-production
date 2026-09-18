@@ -1,0 +1,13 @@
+{
+  "kind": "external",
+  "provider": "REPLACE_WITH_CONNECTED_PROVIDER",
+  "project_ref": "REPLACE_WITH_PROJECT_REFERENCE",
+  "status_map": {
+    "draft": "REPLACE_WITH_PROVIDER_VALUE",
+    "ready": "REPLACE_WITH_PROVIDER_VALUE",
+    "doing": "REPLACE_WITH_PROVIDER_VALUE",
+    "done": "REPLACE_WITH_PROVIDER_VALUE",
+    "blocked": "REPLACE_WITH_PROVIDER_VALUE",
+    "cancelled": "REPLACE_WITH_PROVIDER_VALUE"
+  }
+}

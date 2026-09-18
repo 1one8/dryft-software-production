@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "title": "Software brief",
+  "steps": [
+    {
+      "title": "Problem and users",
+      "fields": [
+        {
+          "id": "problem",
+          "type": "multiline",
+          "label": "What problem are we solving?",
+          "required": true
+        },
+        {
+          "id": "users",
+          "type": "multiline",
+          "label": "Who needs this?",
+          "required": true
+        }
+      ]
+    },
+    {
+      "title": "Scope and success",
+      "fields": [
+        {
+          "id": "scope",
+          "type": "multiline",
+          "label": "What is in and out of scope?",
+          "required": true
+        },
+        {
+          "id": "constraints",
+          "type": "multiline",
+          "label": "What constraints apply?",
+          "required": true
+        },
+        {
+          "id": "acceptance",
+          "type": "multiline",
+          "label": "How will we know it works?",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

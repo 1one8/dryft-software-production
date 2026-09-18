@@ -1,0 +1,47 @@
+{
+  "contract_version": 1,
+  "id": "dryft-software-production",
+  "version": "0.2.0",
+  "description": "Briefs, tasks and software delivery in linked projects, with optional core DUI.",
+  "author": "Dryft",
+  "license": "Apache-2.0",
+  "skills": [
+    "skills/dryft-software-production-brief/SKILL.md",
+    "skills/dryft-software-production-init/SKILL.md",
+    "skills/dryft-software-production-add/SKILL.md",
+    "skills/dryft-software-production-task/SKILL.md",
+    "skills/dryft-software-production-build/SKILL.md",
+    "skills/dryft-software-production-close/SKILL.md",
+    "skills/dryft-software-production-tasks/SKILL.md",
+    "skills/dryft-software-production-triage/SKILL.md",
+    "skills/dryft-software-production-constitution/SKILL.md",
+    "skills/dryft-software-production-pii/SKILL.md"
+  ],
+  "hooks": [],
+  "knowledge": [],
+  "templates": [
+    "templates/project.json",
+    "templates/developer.json",
+    "templates/external-task-system.json",
+    "templates/brief.md",
+    "templates/task.md",
+    "templates/task-context.md",
+    "templates/continuity.md",
+    "templates/handoff.md",
+    "templates/milestone.md",
+    "templates/context.json",
+    "templates/brief.json",
+    "templates/plan.json",
+    "templates/task.json",
+    "templates/constitution.md",
+    "templates/constitution-loader.py",
+    "templates/constitution-setup.py",
+    "templates/privacy-review.py"
+  ],
+  "docs": [
+    "docs/workflow.md",
+    "docs/usage.md",
+    "docs/constitution.md",
+    "docs/privacy-review.md"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "mode": "manual",
+  "concurrency": 1,
+  "roles": {},
+  "toolchain": {},
+  "task_system": {
+    "kind": "internal"
+  }
+}

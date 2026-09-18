@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "title": "Initial plan",
+  "steps": [
+    {
+      "title": "Scope and sequence",
+      "fields": [
+        {
+          "id": "priority",
+          "type": "multiline",
+          "label": "Which outcome should come first?",
+          "required": true
+        },
+        {
+          "id": "dependencies",
+          "type": "multiline",
+          "label": "What dependencies or blockers matter?",
+          "required": true
+        }
+      ]
+    },
+    {
+      "title": "Delivery",
+      "fields": [
+        {
+          "id": "increments",
+          "type": "multiline",
+          "label": "Would any increments or milestones help?",
+          "required": true
+        },
+        {
+          "id": "verification",
+          "type": "multiline",
+          "label": "How should we verify the outcome?",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

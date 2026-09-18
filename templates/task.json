@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "title": "Clarify a task",
+  "steps": [
+    {
+      "title": "Change",
+      "fields": [
+        {
+          "id": "overview",
+          "type": "multiline",
+          "label": "What change is needed?",
+          "required": true
+        },
+        {
+          "id": "scope",
+          "type": "multiline",
+          "label": "What is the task boundary?",
+          "required": true
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "fields": [
+        {
+          "id": "acceptance",
+          "type": "multiline",
+          "label": "What observable result completes the task?",
+          "required": true
+        },
+        {
+          "id": "dependencies",
+          "type": "multiline",
+          "label": "What must happen first?",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "title": "Project context",
+  "steps": [
+    {
+      "title": "Project and environment",
+      "fields": [
+        {
+          "id": "purpose",
+          "type": "multiline",
+          "label": "What should this project do?",
+          "required": true
+        },
+        {
+          "id": "environment",
+          "type": "multiline",
+          "label": "Which environment or setup needs help?",
+          "required": true
+        }
+      ]
+    },
+    {
+      "title": "Workflow preferences",
+      "fields": [
+        {
+          "id": "task_system",
+          "type": "multiline",
+          "label": "Where should tasks be managed?",
+          "required": true
+        },
+        {
+          "id": "workflow",
+          "type": "multiline",
+          "label": "Which tools and level of automation do you want?",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
